@@ -19,7 +19,7 @@ This is a simple Task Management application built with Node.js, Express, and Mo
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/dhiree/Task_Management--Nodejs
    cd task-management
    ```
 
@@ -30,7 +30,7 @@ This is a simple Task Management application built with Node.js, Express, and Mo
 
 3. Create a `.env` file in the root directory and add the following:
    ```
-   MONGODB_URI=mongodb://localhost:27017/task_management
+   MONGODB_URI=''
    PORT=4000
    ```
    Adjust the MONGODB_URI if your MongoDB is hosted elsewhere.
