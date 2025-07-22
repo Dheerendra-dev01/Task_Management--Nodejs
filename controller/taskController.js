@@ -13,6 +13,7 @@ const createTask = async (req, res) => {
             completed: completed === true ? true : false
         });
 
+        console.log("newTask---->>>",newTask)
         await newTask.save();
         res.status(201).json(newTask);
     } catch (err) {
